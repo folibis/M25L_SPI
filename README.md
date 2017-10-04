@@ -59,7 +59,7 @@ int main(void)
 | MOSI  | PB3    |
 | SCLK  | PB5    |
 
-The code above uses serial port to debug purposes. It is assumed that ATMEGA UART port connected to PC using RS232 or some FTDI adapter.
+The code above uses serial port for debug purposes. It is assumed that ATMEGA UART port connected to PC using RS232 or some FTDI adapter.
 
 | PC   | ATMEGA  |
 |------|---------|
