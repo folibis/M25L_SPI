@@ -29,8 +29,8 @@ int main(void)
 	buffer[256] = 0;
 	char ch = 0x21;
 	char page = 0;
-	while (1) 
-    {	
+	while (1)
+	{	
 		memset(buffer,ch, 256);	
 		DEBUG_PRINT("Writing page %d ... ", page);
 		Write(page * 256, buffer, 256);
